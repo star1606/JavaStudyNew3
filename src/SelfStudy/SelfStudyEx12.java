@@ -28,7 +28,7 @@ public class SelfStudyEx12 {
 		Aa d2 = new Aa();
 		// System.out.println(Aa.num4); 이렇게 하면 안됨
 		System.out.println(d2.num4);
-
+		
 		// new 하면 static이 아닌것들이 다 뜬다!
 	}
 

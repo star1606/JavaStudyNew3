@@ -41,6 +41,8 @@ public class GsonEx01 {
 		Person p = gson.fromJson(jsonPerson, Person.class);
 		System.out.println(p.이름);
 		System.out.println(p.가족관계.샵);
+		//데이터 타입Person p는 fromJson을 이용하여 json오브젝트를
+		//자바 오브젝트로 만들었다.
 	}
 		//하나의 파일에는 하나의 public 클래스만 가능
 }
